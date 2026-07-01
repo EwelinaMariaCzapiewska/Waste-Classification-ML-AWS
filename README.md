@@ -9,7 +9,7 @@ Projekt zespołowy na przedmiot Uczenie Maszynowe. System rozpoznaje 6 kategorii
 - **Dane:** Garbage Classification Dataset (Kaggle)
 
 ### Wykresy uczenia
-![Accuracy](Screenshot 2026-06-24 at 20.50.55.png)
+![Accuracy](wykresy.png)
 
 ## 🏗️ Architektura
 W projekcie wykorzystaliśmy technologię **Computer Vision**. Zastosowaliśmy architekturę MobileNetV2, która jest zoptymalizowana pod kątem wydajności (idealna do systemów wbudowanych i chmurowych). Dane były przechowywane w **Amazon S3**, a proces treningu odbył się w usłudze **Amazon SageMaker**.
