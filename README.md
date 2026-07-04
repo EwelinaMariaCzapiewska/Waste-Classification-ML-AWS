@@ -1,6 +1,6 @@
 # Intelligent Waste Classifier with Explainable AI 
 
-A Cloud-Native Machine Learning system developed to automate waste sorting. This project combines **Computer Vision**, **Transfer Learning**, and **Explainable AI ** to classify trash into 6 categories while visualizing the neural network's decision-making process in real-time.
+A Cloud-Native Machine Learning system developed to automate waste sorting. This project combines **Computer Vision**, **Transfer Learning**, and **Explainable AI** to classify trash into 6 categories while visualizing the neural network's decision-making process in real-time.
 
 ---
 
