@@ -4,7 +4,7 @@ A Cloud-Native Machine Learning system developed to automate waste sorting. This
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 This project was developed for a Machine Learning course using the **AWS Academy Learner Lab** environment. The system allows users to hold trash items up to a webcam and receive an instant classification along with a visual heatmap showing exactly what the AI is "looking at."
 
 ### Key Results
@@ -16,7 +16,7 @@ This project was developed for a Machine Learning course using the **AWS Academy
 
 ---
 
-## 🚀 Technical Architecture
+## Technical Architecture
 
 ### 1. Cloud Infrastructure (AWS)
 *   **Amazon S3:** Used as a Data Lake to store and serve the dataset of 2,500+ images.
