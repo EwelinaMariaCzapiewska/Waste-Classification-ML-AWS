@@ -1,6 +1,6 @@
-# Intelligent Waste Classifier with Explainable AI (XAI)
+# Intelligent Waste Classifier with Explainable AI 
 
-A Cloud-Native Machine Learning system developed to automate waste sorting. This project combines **Computer Vision**, **Transfer Learning**, and **Explainable AI (XAI)** to classify trash into 6 categories while visualizing the neural network's decision-making process in real-time.
+A Cloud-Native Machine Learning system developed to automate waste sorting. This project combines **Computer Vision**, **Transfer Learning**, and **Explainable AI ** to classify trash into 6 categories while visualizing the neural network's decision-making process in real-time.
 
 ---
 
@@ -28,7 +28,7 @@ This project was developed for a Machine Learning course using the **AWS Academy
 *   **Optimization:** Trained for 5 epochs using the **Adam optimizer** and **Sparse Categorical Crossentropy** loss.
 
 ### 3. Explainable AI (Grad-CAM)
-To solve the "Black Box" problem, we implemented **Grad-CAM** (*Gradient-weighted Class Activation Mapping*). 
+To solve the Black Box problem, we implemented **Grad-CAM** (*Gradient-weighted Class Activation Mapping*). 
 *   It generates a **Heatmap** overlaid on the original image.
 *   **Red zones** indicate high neural activation (the most important features).
 *   This allowed us to verify that the model focuses on the object's texture and edges rather than the background or the user's face.
@@ -54,13 +54,6 @@ One of the most valuable parts of this project was analyzing where the model str
     *   Skip the training cells if you have the `.h5` file.
     *   Run the **Load Model** cell to import `model_odpady_final.h5`.
     *   Execute the **Gradio Interface** cell to generate the `.gradio.live` link.
-
----
-
-## 👥 Authors
-*   **[Your Name]** - Lead ML Engineer: Cloud Architecture (AWS), Training Pipeline, Grad-CAM & Gradio implementation.
-*   **[Colleague 1]** - Data Specialist: Dataset preparation, S3 management, and Preprocessing.
-*   **[Colleague 2]** - Quality Assurance: Testing, Result evaluation, and Documentation.
 
 ---
 
