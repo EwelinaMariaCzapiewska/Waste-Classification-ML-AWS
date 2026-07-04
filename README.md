@@ -57,7 +57,7 @@ One of the most valuable parts of this project was analyzing where the model str
 
 ---
 
-## 📈 Future Roadmap
+## Possible Future Improvements
 *   **Data Augmentation:** Implement rotations and flips to reduce sensitivity to camera angles.
 *   **Hybrid Detection:** Integrate a YOLOv8 detector to crop the object before passing it to the classifier.
 *   **Fine-tuning:** Unfreeze deeper layers of MobileNetV2 to specialize the filters for waste textures.
